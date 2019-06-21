@@ -1,8 +1,8 @@
-<?php 
+<?php
 	if(isset($_POST['submit'])) {
 	    $errors = '';
 		$myemail = 'theoctober19th@gmail.com';//<-----Put Your email address here.
-		if(empty($_POST['name'])  || 
+		if(empty($_POST['name'])  ||
 		   empty($_POST['email']) ||
 		   empty($_POST['subject']) ||
 		   empty($_POST['message']))
@@ -10,12 +10,12 @@
 		    $errors .= "\n Error: all fields are required";
 		}
 
-		$name = $_POST['name']; 
-		$email_address = $_POST['email']; 
-		$message = $_POST['message']; 
+		$name = $_POST['name'];
+		$email_address = $_POST['email'];
+		$message = $_POST['message'];
 
 		if (!preg_match(
-		"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
+		"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i",
 		$email_address))
 		{
 		    $errors .= "\n Error: Invalid email address";
@@ -45,7 +45,7 @@
 		}
 	} else {
 	    // Display the Form and the Submit Button
-	}  
+	}
 
  ?>
 
@@ -78,7 +78,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -145,10 +145,9 @@
 
 				<br>
 				<br>
-				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
-				
+				<!-- <p><small>&copy;
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
+
 
 			</div>
 
@@ -165,9 +164,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner js-fullheight">
 					   					<div class="desc">
-						   					<h1>Android App<br>Development</h1>
+						   					<h1>Android Native App<br>Development</h1>
 						   					<h2></h2>
-												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">Download CV <i class="icon-download4"></i></a></p>
+												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">View CV <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -183,7 +182,39 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					   					<div class="desc">
 						   					<h1>Web <br>Development</h1>
 												<h2></h2>
-												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">Download CV<i class="icon-briefcase3"></i></a></p>
+												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">View CV<i class="icon-briefcase3"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+						<li style="background-image: url(images/game_development_bg.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1>Game <br>Development</h1>
+												<h2></h2>
+												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">View CV<i class="icon-briefcase3"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+						<li style="background-image: url(images/ios_development_bg.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1>iOS App <br>Development</h1>
+												<h2></h2>
+												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">View CV<i class="icon-briefcase3"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -203,7 +234,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="about-desc">
 										<span class="heading-meta">About Me</span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hi! I'm bikalpa.</strong> I am from Pokhara, Nepal. I love to travel places, drink coffee and write code. Currently I am persuing Bachelor's Degree in Computer Engineering at Nepal College of Information Technology.</p>
+										<p><strong>Hi there! I'm bikalpa.</strong> I am from Pokhara, Nepal. I love to travel places, drink coffee and write code. People say I talk a lot.</p>
+										<p>I am a die-hard fan of George RR Martin's 'A Song of Ice and Fire'. In the internet, I am known by the name theoctober19th most of the time.</p>
+										<p>Of all things that is eccentric about me, I warn you one thing: my sarcasm level is beyond repair, and I practice dark magic. That's all. Over and out.</p>
 										<!-- <p>My hometown is Pokhara.</p> -->
 									</div>
 								</div>
@@ -215,7 +248,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<h3>Android Application Development</h3>
 									</div>
 								</div>
-								
+
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
 									<div class="services color-2">
 										<span class="icon2"><i class="icon-globe-outline"></i></span>
@@ -243,7 +276,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</section>
 
 
-			
+
 			<section class="colorlib-services" data-section="services">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -322,7 +355,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
 				</div>
 			</section>
-			
+
 			<!-- <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
 				<div class="overlay"></div>
 				<div class="colorlib-narrow-content">
@@ -577,7 +610,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			  // for example your user
 			  // $user = 'theoctober19th';
 
-			  // // A token that you could generate from your own github 
+			  // // A token that you could generate from your own github
 			  // // go here https://github.com/settings/applications and create a token
 			  // // then replace the next string
 			  // $token = 'b6a091b2d422dcbab2bac6c2b2d20957c6a8ffdf';
@@ -599,7 +632,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			  // // We execute the curl
 			  // $output = curl_exec($ch);
 
-			  // // And we make sure we close the curl       
+			  // // And we make sure we close the curl
 			  // curl_close($ch);
 
 			  // // Then we decode the output and we could do whatever we want with it
@@ -616,15 +649,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<h2 class="colorlib-heading animate-box">Recent Work</h2>
 						</div>
 					</div>
-					
+
 					<div class="row">
 
-						<?php 
+						<?php
 							if (!empty($output)) {
 
 							    // now you could just foreach the repos and show them
 							    foreach ($output as $repo) {
-							  
+
 						?>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="project" style="background-image: url(images/img-1.jpg);">
@@ -641,7 +674,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							</div>
 						</div>
 
-						<?php 
+						<?php
 							  }
 							}
 						 ?>
@@ -655,14 +688,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section> -->
 
-			<?php 
+			<?php
 				require($_SERVER['DOCUMENT_ROOT'] . '/blog/wp-load.php');
 				$args = array(
 				// 'cat' => 3, // Only source posts from a specific category
 				'posts_per_page' => 3 // Specify how many posts you'd like to display
 				);
 				$latest_posts = new WP_Query( $args );
-			?>			
+			?>
 
 			<section class="colorlib-blog" data-section="blog">
 				<div class="colorlib-narrow-content">
@@ -674,7 +707,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
 					<div class="row">
 
-						<?php 
+						<?php
 							if ( $latest_posts->have_posts() ) {
 								while ( $latest_posts->have_posts() ) {
 									$latest_posts->the_post(); ?>
@@ -693,7 +726,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						</div>
 
 						<?php
-							
+
 							}
 						}
 						?>
@@ -751,7 +784,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-7 col-md-push-1">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									
+
 									<form action="" name="contact_form" method="post">
 										<div class="form-group">
 											<input name="name" type="text" class="form-control" placeholder="Name">
@@ -772,7 +805,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<br>
 									<?php echo $errors; ?>
 								</div>
-								
+
 							</div>
 						</div>
 					</div>
@@ -808,11 +841,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
-	
-	
+
+
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
 
 	</body>
 </html>
-
