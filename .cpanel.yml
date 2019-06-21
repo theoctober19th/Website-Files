@@ -2,6 +2,6 @@
 deployment:
  tasks:
    - export DEPLOYPATH=/home/bikalpa/public_html
-   - /bin/cp /fonts/* $DEPLOYPATH
-   - /bin/cp /images/* $DEPLOYPATH
+   - /bin/cp -r /fonts/* $DEPLOYPATH
+   - /bin/cp -r /images/* $DEPLOYPATH
    - /bin/cp index.php $DEPLOYPATH
