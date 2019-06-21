@@ -1,1 +1,0 @@
-<?php do_action( 'anna_lite_top_sidebar'); ?>
