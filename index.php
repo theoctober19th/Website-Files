@@ -205,7 +205,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					   		</div>
 				   		</div>
 				   	</li>
-						<li style="background-image: url(images/ios_development_bg.jpg);">
+						<li style="background-image: url(images/ios_development_bg.png);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
