@@ -1,4 +1,15 @@
 ---
 deployment:
  tasks:
-   export DEPLOYPATH=/home/user/public_html/
+   - export DEPLOYPATH=/home/bikalpa/public_html
+   - /bin/cp /cgi-bin/* $DEPLOYPATH
+   - /bin/cp /css/* $DEPLOYPATH
+   - /bin/cp /docs/* $DEPLOYPATH
+   - /bin/cp /fonts/* $DEPLOYPATH
+   - /bin/cp /images/* $DEPLOYPATH
+   - /bin/cp /js/* $DEPLOYPATH
+   - /bin/cp /sass/* $DEPLOYPATH
+   - /bin/cp apple-touch-icon.png $DEPLOYPATH
+   - /bin/cp favicon.ico $DEPLOYPATH
+   - /bin/cp index.php $DEPLOYPATH
+   - /bin/cp prepros-6.config $DEPLOYPATH
