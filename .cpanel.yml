@@ -9,6 +9,7 @@ deployment:
    - /bin/cp /images/* $DEPLOYPATH
    - /bin/cp /js/* $DEPLOYPATH
    - /bin/cp /sass/* $DEPLOYPATH
+   - /bin/cp .DS_STORE $DEPLOYPATH
    - /bin/cp apple-touch-icon.png $DEPLOYPATH
    - /bin/cp favicon.ico $DEPLOYPATH
    - /bin/cp index.php $DEPLOYPATH
