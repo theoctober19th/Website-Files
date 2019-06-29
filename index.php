@@ -138,6 +138,7 @@
 
 				Social Media Profiles
 				<ul>
+					<li><a href="https://github.com/theoctober19th"><i class="icon-github"></i></a></li>
 					<li><a href="https://facebook.com/theoctober19th"><i class="icon-facebook2"></i></a></li>
 					<li><a href="https://twitter.com/theoctober19th"><i class="icon-twitter2"></i></a></li>
 					<li><a href="https://instagram.com/theoctober19th"><i class="icon-instagram"></i></a></li>
@@ -287,7 +288,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-3">
 								<span class="icon">
-									<i class="icon-phone3"></i>
+									<i class="icon-android"></i>
 								</span>
 								<div class="desc">
 									<h3>Android Application Development</h3>
@@ -298,10 +299,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-1">
 								<span class="icon">
-									<i class="icon-bulb"></i>
+									<i class="icon-chrome"></i>
 								</span>
 								<div class="desc">
-									<h3>Web <br>Development</h3>
+									<h3>Full Stack Web Development</h3>
 									<p></p>
 								</div>
 							</div>
@@ -309,10 +310,21 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-2">
 								<span class="icon">
-									<i class="icon-data"></i>
+									<i class="icon-appleinc"></i>
 								</span>
 								<div class="desc">
-									<h3>Software Development</h3>
+									<h3>iOS App Development</h3>
+									<p></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-appleinc"></i><i class="icon-windows"></i><i class="icon-tux"></i>
+								</span>
+								<div class="desc">
+									<h3>Cross-Platform <br>Software Development</h3>
 									<p></p>
 								</div>
 							</div>
@@ -398,29 +410,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="progress">
 								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Android</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>HTML5</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
+								    <!-- <span>85%</span> -->
 								  	</div>
 								</div>
 							</div>
@@ -429,9 +419,53 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="progress-wrap">
 								<h3>Spring</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <!-- <span>80%</span> -->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Kotlin</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:40%">
+								    <!-- <span>40%</span> -->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Android</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="85"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:800%">
+								    <!-- <span>80%</span> -->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Swift</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:40%">
+								    <!-- <span>90%</span> -->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>iOS</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:40%">
+								    <!-- <span>90%</span> -->
 								  	</div>
 								</div>
 							</div>
@@ -440,9 +474,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="progress-wrap">
 								<h3>Python</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="70"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								    <span>70%</span>
+								    <!-- <span>70%</span> -->
 								  	</div>
 								</div>
 							</div>
@@ -451,9 +485,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="progress-wrap">
 								<h3>Django</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+								 	<div class="progress-bar color-8" role="progressbar" aria-valuenow="80"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
+								    <!-- <span>80%</span> -->
 								  	</div>
 								</div>
 							</div>
@@ -503,7 +537,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									    </div>
 									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 									        <div class="panel-body">
-									            <p><strong>Nepal College of Information Technology</strong>, Year <strong>2020</strong></p>
+									            <p><strong>Nepal College of Information Technology</strong>, Year <strong>2019</strong></p>
 													<!-- <ul>
 														<li>Separated they live in Bookmarksgrove right</li>
 														<li>Separated they live in Bookmarksgrove right</li>
@@ -614,7 +648,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			  $token = 'b6a091b2d422dcbab2bac6c2b2d20957c6a8ffdf';
 
 			  // We generate the url for curl
-			  $curl_url = 'https://api.github.com/users/' . $user . '/repos?sort=pushed_at';
+			  $curl_url = 'https://api.github.com/users/' . $user . '/repos?sort=updated_at';
 
 			  // We generate the header part for the token
 			  $curl_token_auth = 'Authorization: token ' . $token;
