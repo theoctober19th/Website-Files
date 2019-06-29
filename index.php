@@ -125,8 +125,8 @@
 						<li><a href="#" data-nav-section="services">Services</a></li>
 						<li><a href="#" data-nav-section="skills">Skills</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
-						<!-- <li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li> -->
+						<!-- <li><a href="#" data-nav-section="experience">Experience</a></li> -->
+						<li><a href="#" data-nav-section="work">Work</a></li>
 						<li><a href="#" data-nav-section="blog">Blog</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
