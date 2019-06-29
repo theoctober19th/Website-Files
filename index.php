@@ -87,16 +87,17 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Flexslider  -->
 	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 	<!-- Owl Carousel -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-	<!-- Social Media Buttons -->
-	<link rel="stylesheet" href="css/social_media_icons.css">
 
+
+
+<!-- My CSS -->
+<!-- Animate.css -->
+<link rel="stylesheet" href="css/my_css.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -147,9 +148,6 @@
 				<br>
 				<!-- <p><small>&copy;
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
-
-
-			</div>
 
 		</aside>
 
@@ -235,8 +233,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<span class="heading-meta">About Me</span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
 										<p><strong>Hi there! I'm bikalpa.</strong> I am from Pokhara, Nepal. I love to travel places, drink coffee and write code. People say I talk a lot.</p>
-										<p>I am a die-hard fan of George RR Martin's 'A Song of Ice and Fire'. In the internet, I am known by the name theoctober19th most of the time.</p>
-										<p>Of all things that is eccentric about me, I warn you one thing: my sarcasm level is beyond repair, and I practice dark magic. That's all. Over and out.</p>
+										<p>I am a die-hard fan of George RR Martin's 'A Song of Ice and Fire'. In the internet, I am known by the name <b>theoctober19th</b> most of the time.</p>
+										<p>Of all things that is eccentric about me, I warn you these: my sarcasm level is beyond repair, and I practice dark magic.</p>
 										<!-- <p>My hometown is Pokhara.</p> -->
 									</div>
 								</div>
@@ -519,8 +517,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
 				</div>
 			</section>
-
-			<!-- <section class="colorlib-experience" data-section="experience">
+<!--
+			<section class="colorlib-experience" data-section="experience">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -607,41 +605,43 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</section> -->
 
 			<?php
-			  // for example your user
-			  // $user = 'theoctober19th';
+			  //for example your user
+			  $user = 'theoctober19th';
 
-			  // // A token that you could generate from your own github
-			  // // go here https://github.com/settings/applications and create a token
-			  // // then replace the next string
-			  // $token = 'b6a091b2d422dcbab2bac6c2b2d20957c6a8ffdf';
+			  // A token that you could generate from your own github
+			  // go here https://github.com/settings/applications and create a token
+			  // then replace the next string
+			  $token = 'b6a091b2d422dcbab2bac6c2b2d20957c6a8ffdf';
 
-			  // // We generate the url for curl
-			  // $curl_url = 'https://api.github.com/users/' . $user . '/repos';
+			  // We generate the url for curl
+			  $curl_url = 'https://api.github.com/users/' . $user . '/repos?sort=pushed_at';
 
-			  // // We generate the header part for the token
-			  // $curl_token_auth = 'Authorization: token ' . $token;
+			  // We generate the header part for the token
+			  $curl_token_auth = 'Authorization: token ' . $token;
 
-			  // // We make the actuall curl initialization
-			  // $ch = curl_init($curl_url);
+			  // We make the actuall curl initialization
+			  $ch = curl_init($curl_url);
 
-			  // curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			  //curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
-			  // // We set the right headers: any user agent type, and then the custom token header part that we generated
-			  // curl_setopt($ch, CURLOPT_HTTPHEADER, array('User-Agent: Awesome-Octocat-App', $curl_token_auth));
+			  // We set the right headers: any user agent type, and then the custom token header part that we generated
+			  curl_setopt($ch, CURLOPT_HTTPHEADER, array('User-Agent: Awesome-Octocat-App'));
+				curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
-			  // // We execute the curl
-			  // $output = curl_exec($ch);
+				// We execute the curl
+				$output = curl_exec($ch);
 
-			  // // And we make sure we close the curl
-			  // curl_close($ch);
+				// And we make sure we close the curl
+ 				curl_close($ch);
 
-			  // // Then we decode the output and we could do whatever we want with it
-			  // $output = json_decode($output);
-
+			  // Then we decode the output and we could do whatever we want with it
+			  $output = json_decode($output);
 
 			?>
 
-			<!-- <section class="colorlib-work" data-section="work">
+
+
+			<section class="colorlib-work" data-section="work">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -650,43 +650,49 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						</div>
 					</div>
 
-					<div class="row">
+					<?php
+						if (!empty($output)) {
+
+								// now you could just foreach the repos and show them
+								$counter = 0;
+								$color = 1;
+								foreach ($output as $repo) {
+									$counter++;
+											if($counter % 2 == 0){
+												$color = $color * -1;
+											}
+					?>
+
+					<div class="card-container animate-box">
+					  <div class="card <?php echo $color==1?'':'card--dark'; ?>"><a href="<?php echo $repo->html_url; ?>" target="_blank">
+					      <div class="card--display"><i class="material-icons"><?php echo $repo->language ; ?></i>
+					        <h2 <?php echo $color==1?'':'style="color:white;"' ?>><?php echo $repo->name ?></h2>
+					      </div>
+					      <div class="card--hover">
+					        <h2 <?php echo $color==1?'':'style="color:white;"' ?>><?php echo $repo->name ?></h2>
+					        <p><?php echo $repo->description ?></p>
+					        <p class="link">Click to see project</p>
+					      </div></a>
+					    <div class="card--border"></div>
+					  </div>
+					</div>
 
 						<?php
-							if (!empty($output)) {
-
-							    // now you could just foreach the repos and show them
-							    foreach ($output as $repo) {
-
-						?>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="<?php $repo->html_url ?>"> <?php $repo->name ?> </a></h3>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<?php
+									if($counter > 5){
+										break;
+									}
 							  }
 							}
 						 ?>
-					</div>
+
 
 					<div class="row">
 						<div class="col-md-12 animate-box">
-							<p><a href="https://github.com/theoctober19th" class="btn btn-primary btn-lg btn-load-more">View More on Github <i class="icon-reload"></i></a></p>
+							<p><a href="https://github.com/theoctober19th" target="_blank" class="btn btn-primary btn-lg btn-load-more">View More on Github <i class="icon-reload"></i></a></p>
 						</div>
 					</div>
-				</div>
-			</section> -->
+					</div>
+			</section>
 
 			<?php
 				require($_SERVER['DOCUMENT_ROOT'] . '/blog/wp-load.php');
@@ -715,11 +721,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
 								<a href="<?php the_permalink(); ?>" class="blog-img">
-									<img style="max-width:250px; max-height:250px;" src="<?php the_post_thumbnail();?>
+									<img style="max-width:250px; max-height:250px;" src="<?php the_post_thumbnail_url();?>"/>
 								</a>
 								<div class="desc">
-									<span><small> <?php the_time('l jS F, Y') ?> </small> | <small> /* */ </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="<?php the_permalink(); ?>">  <?php the_title(); ?> </a></h3>
+									<span><small> <?php the_time('l jS F, Y') ?> </small> </span>
+									<h3><a href="<?php the_permalink(); ?>" target="_blank">  <?php the_title(); ?> </a></h3>
 									<p><?php the_excerpt(); ?></p>
 								</div>
 							</div>
@@ -734,7 +740,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 					<div class="row">
 						<div class="col-md-12 animate-box">
-							<p><a href="https://blog.bkalpa.com.np" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+							<p><a href="https://blog.bkalpa.com.np" target="_blank" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
 						</div>
 					</div>
 
