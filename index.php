@@ -308,12 +308,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							</div>
 						</div>
 						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
+							<div class="services color-4">
 								<span class="icon">
 									<i class="icon-appleinc"></i>
 								</span>
 								<div class="desc">
-									<h3>iOS App Development</h3>
+									<h3>iOS Application Development</h3>
 									<p></p>
 								</div>
 							</div>
@@ -325,6 +325,28 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								</span>
 								<div class="desc">
 									<h3>Cross-Platform <br>Software Development</h3>
+									<p></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Cross-Platform <br>Game Development</h3>
+									<p></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-6">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Machine <br>Learning</h3>
 									<p></p>
 								</div>
 							</div>
@@ -442,7 +464,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<h3>Android</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:800%">
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
 								    <!-- <span>80%</span> -->
 								  	</div>
 								</div>

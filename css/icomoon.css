@@ -1790,3 +1790,7 @@
   content: "\eb1a";
 }
 
+/*added later*/
+.icon-pacman:before {
+  content: "\e916";
+}
