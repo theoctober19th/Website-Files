@@ -57,8 +57,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Bikalpa Dhakal</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Mobile app, web application and desktop application developer based on Kathmandu, Nepal" />
-	<meta name="keywords" content="android application python django web development nepal kathmandu" />
+	<meta name="description" content="Bikalpa Dhakal is a mobile app, web application and desktop application developer based on Kathmandu, Nepal" />
+	<meta name="keywords" content="theoctober19th bikalpa dhakal BikalpaDhakal ios mobile android application python django web development nepal kathmandu developer bikalpaCodes" />
 	<meta name="author" content="Bikalpa Dhakal" />
 
   <!-- Facebook and Twitter integration -->
@@ -66,7 +66,7 @@
 	<meta property="og:image" content="http://bkalpa.com.np/images/about.jpg"/>
 	<meta property="og:url" content="bkalpa.com.np"/>
 	<meta property="og:site_name" content="Bikalpa Dhakal"/>
-	<meta property="og:description" content="Mobile app, web application and desktop application developer based on Kathmandu, Nepal"/>
+	<meta property="og:description" content="Bikalpa Dhakal (theoctober19th) is a mobile app, web application and desktop application developer based on Kathmandu, Nepal"/>
 	<meta name="twitter:title" content="Bikalpa Dhakal" />
 	<meta name="twitter:image" content="http://bkalpa.com.np/images/about.jpg" />
 	<meta name="twitter:url" content="bkalpa.com.np" />
