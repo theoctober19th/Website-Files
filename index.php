@@ -233,9 +233,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="about-desc">
 										<span class="heading-meta">About Me</span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hi there! I'm bikalpa.</strong> I am from Pokhara, Nepal. I love to travel places, drink coffee and write code. People say I talk a lot.</p>
-										<p>I am a die-hard fan of George RR Martin's 'A Song of Ice and Fire'. In the internet, I am known by the name <b>theoctober19th</b> most of the time.</p>
-										<p>Of all things that is eccentric about me, I warn you these: my sarcasm level is beyond repair, and I practice dark magic.</p>
+										<p><strong>Hi there! I'm bikalpa.</strong> I am from Pokhara, Nepal. In the internet, I am known by the name <b>theoctober19th</b> most of the time.</p>
+										<p>I have recently co-founded a tech startup <strong>Treasure Nepal</strong>, where I mostly see the technical matters.</p>
+										<p>I love to travel places, watch movies, listen to music and write code. I occasionally ring some stuffs in my guitar -- but that's my sidekick. People say I talk a lot.</p>
+										<p>Anything related to music, art and aviation fascinates me. I dream of joining flight school sometimes later in my life. A commercial pilot would be my profession had I not pursued IT.</p>
+										<p>I am a die-hard fan of George RR Martin's 'A Song of Ice and Fire' (though extremely disappointed with 'Game of Thrones'). Other shows I love are Mr. Robot, Rick and Morty, Sacred Games and Sherlock.</p>
+										<p>Of all things that is eccentric about me, I warn you these: my sarcasm level is beyond repair, and I practice dark magic :P</p>
 										<!-- <p>My hometown is Pokhara.</p> -->
 									</div>
 								</div>
