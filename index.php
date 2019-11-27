@@ -189,7 +189,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				   		</div>
 				   	</li>
 
-					<li style="background-image: url(images/ios_development.jpg);">
+					<li style="background-image: url(images/ios_development.png);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -206,7 +206,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				   		</div>
 				   	</li>
 
-					 <li style="background-image: url(images/cross_platform_development.jpg);">
+					 <li style="background-image: url(images/cross_platform_development.png);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
