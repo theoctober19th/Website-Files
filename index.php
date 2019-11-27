@@ -156,14 +156,30 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
+					<li style="background-image: url(images/full_stack_development.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1>Full Stack Web<br>Development</h1>
+												<h2></h2>
+												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">View CV<i class="icon-download4"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url(images/android_development.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner js-fullheight">
 					   					<div class="desc">
-						   					<h1>Android Native App<br>Development</h1>
+						   					<h1>Android App<br>Development</h1>
 						   					<h2></h2>
 												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">View CV <i class="icon-download4"></i></a></p>
 											</div>
@@ -172,48 +188,34 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					   		</div>
 				   		</div>
 				   	</li>
-				   	<li style="background-image: url(images/img_bg_2.jpg);">
+
+					<li style="background-image: url(images/ios_development.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
+					   				<div class="slider-text-inner js-fullheight">
 					   					<div class="desc">
-						   					<h1>Web <br>Development</h1>
-												<h2></h2>
-												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">View CV<i class="icon-briefcase3"></i></a></p>
+						   					<h1>iOS App<br>Development</h1>
+						   					<h2></h2>
+												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">View CV <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
 					   		</div>
 				   		</div>
 				   	</li>
-						<li style="background-image: url(images/game_development_bg.jpg);">
+
+					 <li style="background-image: url(images/cross_platform_development.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner">
 					   					<div class="desc">
-						   					<h1>Game <br>Development</h1>
+						   					<h1>Cross Platform<br>Software Development</h1>
 												<h2></h2>
-												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">View CV<i class="icon-briefcase3"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-						<li style="background-image: url(images/ios_development_bg.png);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc">
-						   					<h1>iOS App <br>Development</h1>
-												<h2></h2>
-												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">View CV<i class="icon-briefcase3"></i></a></p>
+												<p><a class="btn btn-primary btn-learn" href="docs/BikalpaDhakalCV.pdf">View CV<i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -332,28 +334,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Cross-Platform <br>Game Development</h3>
-									<p></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Machine <br>Learning</h3>
-									<p></p>
-								</div>
-							</div>
-						</div>
+						
 						<!-- <div class="col-md-4 text-center animate-box">
 							<div class="services color-4">
 								<span class="icon">
@@ -517,6 +498,28 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								</div>
 							</div>
 						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>React Native</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-8" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <!-- <span>80%</span> -->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Firebase</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-8" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <!-- <span>80%</span> -->
+								  	</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -576,7 +579,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
 				</div>
 			</section>
-<!--
+
 			<section class="colorlib-experience" data-section="experience">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -596,14 +599,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					               </div>
 
 					               <div class="timeline-label">
-					                  <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
-					                  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+					                  <h2><a href="#">Full Stack Developer</a> <span>Sep 2019 - Present</span></h2>
+					                  <p>Treasure Nepal Pvt. Ltd.</p>
 					               </div>
 					            </div>
 					         </article>
 
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					         <!-- <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
 					            <div class="timeline-entry-inner">
 					               <div class="timeline-icon color-2">
 					                  <i class="icon-pen2"></i>
@@ -649,7 +652,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 					               </div>
 					            </div>
-					         </article>
+					         </article> -->
 
 					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
 					            <div class="timeline-entry-inner">
@@ -661,7 +664,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					   </div>
 				   </div>
 				</div>
-			</section> -->
+			</section>
 
 			<?php
 			  //for example your user
