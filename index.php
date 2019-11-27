@@ -599,8 +599,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					               </div>
 
 					               <div class="timeline-label">
-					                  <h2><a href="#">Full Stack Developer</a> <span>Sep 2019 - Present</span></h2>
-					                  <p>Treasure Nepal Pvt. Ltd.</p>
+					                  <h2>Full Stack Developer<span>Sep 2019 - Present</span></h2>
+					                  <h4><p><a href="https://facebook.com/treasurenepalpvtltd">Treasure Nepal Pvt. Ltd.</a></p></h4>
 					               </div>
 					            </div>
 					         </article>
